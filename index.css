@@ -75,6 +75,54 @@ ul li a:hover{
     color: #1E9AFF;
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+}
+
+.hamburger img {
+
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-container {
+        justify-content: space-between;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+
+    ul.active {
+        display: flex;
+    }
+
+    ul li {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
 /* about secction */
 .about-container{
     padding-left: 80px;
