@@ -456,6 +456,11 @@ ul li a:hover{
     .project-card p {
         font-size: 0.8em;
     }
+
+    .grid-container{
+        padding-left: 0;
+        margin-left: 0;
+    }
 }
 
 /* contact section */
@@ -589,7 +594,7 @@ ul li a:hover{
 @media (max-width: 576px) {
   .contact-container {
     padding-top: 950px;
-    padding-left: 30px;
+    padding-left: 0;
   }
 
   .contact-container h1 {
@@ -597,12 +602,15 @@ ul li a:hover{
     display: flex;
     justify-content: flex-start;
     margin-top: 30px;
+    margin-left: 10px;
   }
 
   .contact-information p {
     width: 100%;
     text-align: start;
     font-size: 0.8em;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .social-icon-container span img {
