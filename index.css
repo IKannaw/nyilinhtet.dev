@@ -51,11 +51,10 @@ ul li a{
     transition: color 0.3s ease-in-out;
 }
 
-ul li:first-child a{ 
+.nav-item a.active {
+    padding: 5px;
+    border-radius: 10px;
     color: #1E9AFF;;
-}
-
-ul li:first-child{
     background-color: #184265;
 }
 
@@ -69,10 +68,6 @@ li:hover::after {
 
 li a:hover {
     color:#1E9AFF; /* Change color on hover */
-}
-
-ul li a:hover{
-    color: #1E9AFF;
 }
 
 .hamburger {
